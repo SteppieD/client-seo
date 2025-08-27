@@ -24,11 +24,24 @@ A comprehensive, battle-tested framework for creating high-quality SEO pillar pa
 - **Messaging guidelines** emphasizing authenticity over hype
 - **SEO optimization checklists** for technical implementation
 
-## ⚡ Too Complex? Try Simple Setup First!
+## 🎯 One-Click Setup (20 Minutes Total)
 
-**Want to get started in 15 minutes?** → [SIMPLE-SETUP.md](SIMPLE-SETUP.md)
+**Want everything set up automatically?** → [MASTER-PROMPT.md](MASTER-PROMPT.md)
 
-Just need: Your business info + competitor's best article + AI assistant = High-quality SEO content
+✨ **One prompt creates your entire SEO framework:**
+- Analyzes your competitors automatically  
+- Creates 8 customized files ready to use
+- Writes your first complete pillar page
+- Builds 3-month content calendar
+- Sets up quality control system
+
+*Fill in 10 pieces of info, paste one prompt, get a complete professional SEO system.*
+
+---
+
+## ⚡ Alternative: Simple Setup  
+
+**Just want one article?** → [SIMPLE-SETUP.md](SIMPLE-SETUP.md) (15 minutes)
 
 ---
 
