@@ -24,18 +24,27 @@ A comprehensive, battle-tested framework for creating high-quality SEO pillar pa
 - **Messaging guidelines** emphasizing authenticity over hype
 - **SEO optimization checklists** for technical implementation
 
-## 🎯 One-Click Setup (20 Minutes Total)
+## 🤖 Claude Code Automatic Setup (Recommended)
 
-**Want everything set up automatically?** → [MASTER-PROMPT.md](MASTER-PROMPT.md)
+**Using Claude Code?** Just say: **"Set up my SEO framework"**
 
-✨ **One prompt creates your entire SEO framework:**
-- Analyzes your competitors automatically  
-- Creates 8 customized files ready to use
-- Writes your first complete pillar page
-- Builds 3-month content calendar
-- Sets up quality control system
+✨ **Claude Code will automatically:**
+- Ask you simple questions about your business
+- Analyze your competitors using WebFetch
+- Research your niche and industry trends  
+- Create 15 customized files ready to use
+- Write your first complete pillar page
+- Set up your complete professional system
 
-*Fill in 10 pieces of info, paste one prompt, get a complete professional SEO system.*
+*No prompts to copy, no files to manage - just answer questions and get everything created automatically.*
+
+See: [CLAUDE-CODE-SETUP.md](CLAUDE-CODE-SETUP.md) for technical details.
+
+---
+
+## 🎯 Alternative: One-Click Setup 
+
+**Using other AI?** → [ULTIMATE-MASTER-PROMPT.md](ULTIMATE-MASTER-PROMPT.md) (20 minutes)
 
 ---
 
