@@ -1,0 +1,24 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*~
+*.swp
+*.tmp
+
+# Logs
+*.log
+
+# User-specific files (keep template versions)
+# Uncomment these lines after customization to avoid committing business-specific data:
+# BUSINESS-INFORMATION-COMPLETE.md
+# CLIENT-FEEDBACK-CORRECTIONS.md  
+# FEEDBACK-LOG.md
+# pillar-page-*-FINAL.md
+# *-HTML-FORMAT.md
