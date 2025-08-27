@@ -83,40 +83,64 @@ Use WebSearch to research:
 - SEO opportunities for {LOCATION} + {NICHE}
 
 ### STEP 7: CREATE COMPLETE FILE SYSTEM
-Create these files using the variables and research:
+Create these files in the `/generated` folder using the variables and research:
 
 #### Core Framework:
 - **README.md** - Customized overview for {BUSINESS_NAME}
-- **BUSINESS-PROFILE.md** - Complete business information using all variables
-- **COMPETITOR-ANALYSIS.md** - Detailed analysis of fetched competitor content
-- **NICHE-RESEARCH.md** - Industry insights and opportunities for {NICHE}
-- **CONTENT-STRATEGY.md** - Strategic approach for {BUSINESS_NAME}
+- **business-profile.md** - Complete business information using all variables
+- **competitor-analysis.md** - Detailed analysis of fetched competitor content
+- **niche-research.md** - Industry insights and opportunities for {NICHE}
+- **content-strategy.md** - Strategic approach for {BUSINESS_NAME}
 
 #### Templates & Guidelines:
-- **PILLAR-PAGE-TEMPLATE.md** - Master template with {BUSINESS_NAME} variables
-- **CONTENT-GUIDELINES.md** - Writing standards based on competitor analysis
-- **QUALITY-CHECKLIST.md** - Pre-publication checklist for {NICHE}
-- **LINK-STRATEGY.md** - Linking approach for {WEBSITE_URL}
+- **pillar-template.md** - Master template with {BUSINESS_NAME} variables
+- **content-guidelines.md** - Writing standards based on competitor analysis
+- **quality-checklist.md** - Pre-publication checklist for {NICHE}
+- **link-strategy.md** - Linking approach for {WEBSITE_URL}
 
 #### Ready-to-Use Content:
-- **pillar-page-draft-1.md** - Complete first pillar page ready to publish
-- **content-ideas-list.md** - 20 future topics for {BUSINESS_NAME}
+- **pillar-page-draft-1.md** - Complete first pillar page with SEO-optimized URL and meta description
+- **content-ideas-list.md** - 20 future topics for {BUSINESS_NAME} with suggested URLs
 - **keyword-research.md** - Target keywords for {LOCATION} + {NICHE}
+- **seo-urls-and-metas.md** - List of optimized URLs and meta descriptions for all content
 
 #### Implementation:
-- **SETUP-INSTRUCTIONS.md** - How to implement everything
-- **NEXT-STEPS.md** - 90-day action plan
-- **TRACKING-METRICS.md** - What to measure
+- **setup-instructions.md** - How to implement everything
+- **next-steps.md** - 90-day action plan
+- **tracking-metrics.md** - What to measure
 
-### STEP 8: CUSTOMIZATION REQUIREMENTS
+### STEP 8: SEO URL AND META DESCRIPTION GENERATION
+For each pillar page and content piece created:
+
+1. **Generate SEO-Optimized URLs:**
+   - Format: `/best-{service}-in-{location}`
+   - Example: `/best-mountain-lodges-in-whistler`
+   - Keep URLs under 60 characters when possible
+   - Use hyphens instead of spaces
+   - Include primary keyword + location
+
+2. **Create Meta Descriptions:**
+   - 150-160 characters maximum
+   - Include primary keyword + location
+   - Include compelling call to action
+   - Format: "Discover the best {service} in {location}. {Unique value prop}. {Call to action}."
+   - Example: "Discover the best mountain lodges in Whistler. Authentic alpine experiences with private hot tubs. Book your mountain getaway today!"
+
+3. **Document in seo-urls-and-metas.md:**
+   - List all generated URLs and meta descriptions
+   - Include target keywords for each
+   - Provide implementation instructions for CMS
+
+### STEP 9: CUSTOMIZATION REQUIREMENTS
 For every file:
 1. Replace ALL generic examples with {BUSINESS_NAME} specifics
 2. Reference competitor insights throughout
 3. Use {LOCATION}, {NICHE}, {TARGET_CUSTOMERS} context consistently
 4. Include actual business differentiators and services
 5. Create content that can compete with analyzed competitors
+6. Generate SEO-optimized URLs and meta descriptions for all content
 
-### STEP 9: FINAL DELIVERY
+### STEP 10: FINAL DELIVERY
 Tell the user:
 
 ```

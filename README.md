@@ -32,25 +32,26 @@ A comprehensive, battle-tested framework for creating high-quality SEO pillar pa
 - Ask you simple questions about your business
 - Analyze your competitors using WebFetch
 - Research your niche and industry trends  
-- Create 15 customized files ready to use
+- Create 15 customized files in your `/generated` folder
+- Generate SEO-optimized URLs and meta descriptions
 - Write your first complete pillar page
 - Set up your complete professional system
 
 *No prompts to copy, no files to manage - just answer questions and get everything created automatically.*
 
-See: [CLAUDE-CODE-SETUP.md](CLAUDE-CODE-SETUP.md) for technical details.
+See: [claude-code-setup.md](claude-code-setup.md) for technical details.
 
 ---
 
 ## 🎯 Alternative: One-Click Setup 
 
-**Using other AI?** → [ULTIMATE-MASTER-PROMPT.md](ULTIMATE-MASTER-PROMPT.md) (20 minutes)
+**Using other AI?** → [ultimate-master-prompt.md](ultimate-master-prompt.md) (20 minutes)
 
 ---
 
 ## ⚡ Alternative: Simple Setup  
 
-**Just want one article?** → [SIMPLE-SETUP.md](SIMPLE-SETUP.md) (15 minutes)
+**Just want one article?** → [simple-setup.md](simple-setup.md) (15 minutes)
 
 ---
 
@@ -65,24 +66,24 @@ See: [CLAUDE-CODE-SETUP.md](CLAUDE-CODE-SETUP.md) for technical details.
 - This gives you the competitive intelligence to position effectively
 
 #### 2. **Business Information Setup**
-- Fill out `BUSINESS-INFORMATION-TEMPLATE.md` with your specific details
+- Fill out `/resources/business-profile.md` with your specific details
 - This becomes your single source of truth for all content creation
 - Include your unique differentiators, target audiences, and key features
 
 #### 3. **Framework Customization**
-- Use the [Setup Automation](SETUP-AUTOMATION.md) for AI-assisted customization
-- Or follow the [Manual Setup Guide](SETUP-GUIDE.md) for hands-on approach
+- Use the [Setup Automation](setup-automation.md) for AI-assisted customization
+- Or follow the [Manual Setup Guide](setup-guide.md) for hands-on approach
 - Customize the pillar page master list with your content priorities
 
 #### 4. **Create Your First Pillar Page**
-- Use `pillar-page-template-FINAL.md` as your base
+- Use `/resources/pillar-template.md` as your base
 - Apply insights from your competitive research
-- Run through `CONTENT-ACCURACY-CHECKLIST.md` before publishing
+- Run through `/resources/quality-checklist.md` before publishing
 
 ### Setup Options:
 
 **Option 1: AI-Assisted Setup (Recommended for Most Users)**
-Use the comprehensive setup automation in [SETUP-AUTOMATION.md](SETUP-AUTOMATION.md):
+Use the comprehensive setup automation in [setup-automation.md](setup-automation.md):
 - **Master setup prompt** for complete customization
 - **Industry-specific quick prompts** for faster setup
 - **Competitive analysis integration**
@@ -90,36 +91,41 @@ Use the comprehensive setup automation in [SETUP-AUTOMATION.md](SETUP-AUTOMATION
 
 **Option 2: Manual Setup (For Developers)**
 1. Clone this repository
-2. Follow the [Setup Guide](SETUP-GUIDE.md)
+2. Follow the [Setup Guide](setup-guide.md)
 3. Customize templates with your business information
-4. Review the [Template Variables Reference](TEMPLATE-VARIABLES.md)
+4. Review the [Variables Reference](resources/variables-reference.md)
 
 ## 📁 Project Structure
 
 ```
 /
 ├── README.md                           # This file
-├── SETUP-GUIDE.md                      # Detailed setup instructions
-├── TEMPLATE-VARIABLES.md               # Reference for all template variables
+├── setup-guide.md                      # Detailed setup instructions  
+├── claude-code-setup.md                # Automated setup for Claude Code
+├── simple-setup.md                     # Quick 15-minute setup
 ├── 
-├── 📋 FRAMEWORK DOCUMENTATION
-├── SEO-BEST-PRACTICES.md               # Core SEO guidelines and messaging rules
-├── SEO-WRITING-GUIDE-ADVANCED.md      # Advanced writing techniques
-├── CONTENT-ACCURACY-CHECKLIST.md      # Quality control checklist
-├── PILLAR-PAGE-MASTER-LIST.md          # Template for content planning
+├── 📋 resources/                       # Framework templates and guidelines
+│   ├── business-profile.md             # Business information template
+│   ├── variables-reference.md          # All template variables
+│   ├── seo-guidelines.md               # Core SEO and messaging rules
+│   ├── writing-guide.md                # Advanced writing techniques
+│   ├── quality-checklist.md            # Content quality control
+│   ├── pillar-template.md              # Master pillar page template
+│   ├── seo-template.md                 # SEO URLs and meta descriptions
+│   ├── content-planner.md              # Content strategy planning
+│   ├── feedback-form.md                # Client feedback template
+│   └── feedback-log.md                 # Progress tracking template
 ├── 
-├── 📝 TRACKING & FEEDBACK TEMPLATES
-├── CLIENT-FEEDBACK-CORRECTIONS.md     # Template for feedback integration
-├── FEEDBACK-LOG.md                     # Template for tracking iterations
+├── 📝 examples/                        # Sample implementations
+│   ├── business-info.md                # Example business profile
+│   ├── client-feedback.md              # Example feedback form
+│   ├── pillar-page-draft.md            # Example pillar page
+│   └── [Additional examples...]
 ├── 
-├── 🏢 BUSINESS INFORMATION TEMPLATES  
-├── BUSINESS-INFORMATION-TEMPLATE.md   # Template for business details
-├── 
-├── 📄 CONTENT TEMPLATES
-├── pillar-page-template-FINAL.md       # Master pillar page template
-├── 1-main-service-HTML-FORMAT.md       # HTML formatted template
-├── [Additional pillar page templates...]
-└── 
+└── 🎯 generated/                       # Claude creates your files here
+    ├── [Your customized business files]
+    ├── [Your pillar pages with SEO URLs]
+    └── [Your complete framework]
 ```
 
 ## 🎨 Key Framework Features
@@ -165,24 +171,25 @@ This framework was developed through a successful SEO project that achieved:
 ## 📚 Documentation Guide
 
 ### Start Here
-1. **[Setup Guide](SETUP-GUIDE.md)** - Step-by-step customization instructions
-2. **[Template Variables](TEMPLATE-VARIABLES.md)** - Reference for all replaceable content
-3. **[SEO Best Practices](SEO-BEST-PRACTICES.md)** - Core guidelines for content creation
+1. **[Setup Guide](setup-guide.md)** - Step-by-step customization instructions
+2. **[Variables Reference](resources/variables-reference.md)** - Reference for all template variables
+3. **[SEO Guidelines](resources/seo-guidelines.md)** - Core guidelines for content creation
 
 ### Content Creation
-1. **[Advanced Writing Guide](SEO-WRITING-GUIDE-ADVANCED.md)** - Professional writing techniques
-2. **[Content Accuracy Checklist](CONTENT-ACCURACY-CHECKLIST.md)** - Quality control before publishing
-3. **[Pillar Page Master List](PILLAR-PAGE-MASTER-LIST.md)** - Content planning template
+1. **[Writing Guide](resources/writing-guide.md)** - Professional writing techniques
+2. **[Quality Checklist](resources/quality-checklist.md)** - Quality control before publishing
+3. **[Content Planner](resources/content-planner.md)** - Content strategy template
+4. **[SEO Template](resources/seo-template.md)** - URL and meta description generation
 
 ### Project Management
-1. **[Feedback Integration](CLIENT-FEEDBACK-CORRECTIONS.md)** - Template for managing feedback
-2. **[Progress Tracking](FEEDBACK-LOG.md)** - System for version control and improvements
+1. **[Feedback Form](resources/feedback-form.md)** - Template for managing feedback
+2. **[Feedback Log](resources/feedback-log.md)** - System for version control and improvements
 
 ## 🤝 Support & Contributions
 
 ### Getting Help
-- Review the troubleshooting section in [Setup Guide](SETUP-GUIDE.md)
-- Check [Template Variables Reference](TEMPLATE-VARIABLES.md) for customization help
+- Review the troubleshooting section in [Setup Guide](setup-guide.md)
+- Check [Variables Reference](resources/variables-reference.md) for customization help
 - Use the guided setup prompt for AI-assisted customization
 
 ### Contributing
@@ -210,11 +217,11 @@ For best results, complete these steps in order:
 
 **Ready to get started?** 
 
-🚀 **Most users**: Start with [SIMPLE-SETUP.md](SIMPLE-SETUP.md) (15 minutes)
+🚀 **Most users**: Start with [simple-setup.md](simple-setup.md) (15 minutes)
 
-⚙️ **Power users**: Use [Setup Automation](SETUP-AUTOMATION.md) for full framework
+⚙️ **Power users**: Use [Setup Automation](setup-automation.md) for full framework
 
-🔧 **Developers**: Clone this repo and follow the [Setup Guide](SETUP-GUIDE.md)
+🔧 **Developers**: Clone this repo and follow the [Setup Guide](setup-guide.md)
 
 *Start simple, get results, then scale up to the full framework when you're ready.*
 

@@ -1,5 +1,8 @@
 # Best {{PRIMARY_SERVICE}} in {{LOCATION}}: Your Guide to Authentic {{INDUSTRY}} Experience
 
+**SEO URL:** `/best-{{PRIMARY_SERVICE_SLUG}}-in-{{LOCATION_SLUG}}`
+**Meta Description:** "Discover the best {{PRIMARY_SERVICE}} in {{LOCATION}}. {{UNIQUE_VALUE_PROPOSITION}}. {{CALL_TO_ACTION}}."
+
 ## Key Takeaways
 
 - **{{CLIENT_NAME}}** - Most authentic {{LOCATION}} {{BUSINESS_TYPE}} experience with {{UNIQUE_SELLING_POINT}}
