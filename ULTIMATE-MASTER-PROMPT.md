@@ -95,40 +95,64 @@ Conduct original research on the {NICHE} industry:
 5. SEO opportunities and keyword patterns
 
 ## STEP 4: CREATE COMPLETE FILE STRUCTURE
-Create these .md files customized with my variables:
+Create these .md files customized with my variables in the `/generated` folder:
 
 ### Core Framework Files:
 - **README.md** - Project overview and quick start guide
-- **BUSINESS-PROFILE.md** - Complete {BUSINESS_NAME} information and positioning
-- **COMPETITOR-ANALYSIS.md** - Detailed analysis of all competitor content provided
-- **NICHE-RESEARCH.md** - Industry insights and opportunities for {NICHE}
-- **CONTENT-STRATEGY.md** - Strategic approach and content calendar for {BUSINESS_NAME}
+- **business-profile.md** - Complete {BUSINESS_NAME} information and positioning
+- **competitor-analysis.md** - Detailed analysis of all competitor content provided
+- **niche-research.md** - Industry insights and opportunities for {NICHE}
+- **content-strategy.md** - Strategic approach and content calendar for {BUSINESS_NAME}
 
 ### Template & Production Files:
-- **PILLAR-PAGE-TEMPLATE.md** - Master template using {BUSINESS_NAME} variables
-- **CONTENT-GUIDELINES.md** - Writing standards based on competitor analysis
-- **QUALITY-CHECKLIST.md** - Pre-publication checklist for {NICHE} content
-- **LINK-STRATEGY.md** - Internal/external linking approach for {WEBSITE_URL}
+- **pillar-template.md** - Master template using {BUSINESS_NAME} variables
+- **content-guidelines.md** - Writing standards based on competitor analysis
+- **quality-checklist.md** - Pre-publication checklist for {NICHE} content
+- **link-strategy.md** - Internal/external linking approach for {WEBSITE_URL}
 
 ### Ready-to-Use Content:
-- **pillar-page-draft-1.md** - First complete pillar page ready to publish
-- **content-ideas-list.md** - 20 future content topics for {BUSINESS_NAME}
+- **pillar-page-draft-1.md** - First complete pillar page with SEO-optimized URL and meta description
+- **content-ideas-list.md** - 20 future content topics for {BUSINESS_NAME} with suggested URLs
 - **keyword-research.md** - Target keywords and SEO strategy for {LOCATION} {NICHE}
+- **seo-urls-and-metas.md** - List of optimized URLs and meta descriptions for all content
 
 ### Implementation Files:
-- **SETUP-INSTRUCTIONS.md** - How to implement everything
-- **NEXT-STEPS.md** - 90-day action plan
-- **TRACKING-METRICS.md** - What to measure and monitor
+- **setup-instructions.md** - How to implement everything
+- **next-steps.md** - 90-day action plan
+- **tracking-metrics.md** - What to measure and monitor
 
-## STEP 5: CUSTOMIZATION REQUIREMENTS
+## STEP 5: SEO URL AND META DESCRIPTION GENERATION
+For each pillar page and content piece created:
+
+1. **Generate SEO-Optimized URLs:**
+   - Format: `/best-{service}-in-{location}`
+   - Example: `/best-mountain-lodges-in-whistler`
+   - Keep URLs under 60 characters when possible
+   - Use hyphens instead of spaces
+   - Include primary keyword + location
+
+2. **Create Meta Descriptions:**
+   - 150-160 characters maximum
+   - Include primary keyword + location
+   - Include compelling call to action
+   - Format: "Discover the best {service} in {location}. {Unique value prop}. {Call to action}."
+   - Example: "Discover the best mountain lodges in Whistler. Authentic alpine experiences with private hot tubs. Book your mountain getaway today!"
+
+3. **Document in seo-urls-and-metas.md:**
+   - List all generated URLs and meta descriptions
+   - Include target keywords for each
+   - Provide implementation instructions for CMS
+
+## STEP 6: CUSTOMIZATION REQUIREMENTS
 For every file created:
 1. Replace all generic examples with {BUSINESS_NAME} specifics
 2. Reference competitor insights throughout
 3. Include {LOCATION}, {NICHE}, and {TARGET_CUSTOMERS} context
 4. Use actual business differentiators and services
 5. Create content that can compete with the analyzed competitors
+6. Generate SEO-optimized URLs and meta descriptions for all content
 
-## STEP 6: STRATEGIC POSITIONING
+## STEP 7: STRATEGIC POSITIONING
 Based on competitor analysis:
 1. Identify content gaps and opportunities
 2. Position {BUSINESS_NAME} authentically vs competitors
@@ -136,7 +160,7 @@ Based on competitor analysis:
 4. Avoid copying - create better, more authentic content
 5. Leverage {KEY_DIFFERENTIATORS} effectively
 
-## STEP 7: FIRST PILLAR PAGE
+## STEP 8: FIRST PILLAR PAGE
 Write a complete, publication-ready pillar page that:
 1. Follows best practices learned from competitor analysis
 2. Uses {BUSINESS_NAME} positioning and differentiators  
@@ -159,7 +183,7 @@ Present each file with clear headers like:
 --- FILE: README.md ---
 [Complete file content here]
 
---- FILE: BUSINESS-PROFILE.md ---  
+--- FILE: business-profile.md ---  
 [Complete file content here]
 ```
 
@@ -174,6 +198,6 @@ Please start by confirming my niche, then proceed with the complete analysis and
 3. **Copy everything from "I need you to create..." onward**
 4. **Paste to Claude** and wait for your complete framework
 5. **Save each file** it creates with the exact filename provided
-6. **Follow the SETUP-INSTRUCTIONS.md** it creates for you
+6. **Follow the setup-instructions.md** it creates for you
 
 You'll get a complete, professional SEO content system customized specifically for your business and competitive landscape!
