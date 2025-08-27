@@ -95,7 +95,7 @@ Conduct original research on the {NICHE} industry:
 5. SEO opportunities and keyword patterns
 
 ## STEP 4: CREATE COMPLETE FILE STRUCTURE
-Create these .md files customized with my variables in the `/generated` folder:
+First, create a `/generated` folder to organize all customized files. Use the templates from the `/resources` folder as reference for structure and formatting. Then create these .md files customized with my variables inside the `/generated` folder:
 
 ### Core Framework Files:
 - **README.md** - Project overview and quick start guide
