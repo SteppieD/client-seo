@@ -24,9 +24,17 @@ A comprehensive, battle-tested framework for creating high-quality SEO pillar pa
 - **Messaging guidelines** emphasizing authenticity over hype
 - **SEO optimization checklists** for technical implementation
 
-## 🚀 Quick Start Guide
+## ⚡ Too Complex? Try Simple Setup First!
 
-### Essential Steps for New Users:
+**Want to get started in 15 minutes?** → [SIMPLE-SETUP.md](SIMPLE-SETUP.md)
+
+Just need: Your business info + competitor's best article + AI assistant = High-quality SEO content
+
+---
+
+## 🚀 Full Framework Setup (Advanced)
+
+### Essential Steps for Power Users:
 
 #### 1. **Competitive Research** (Critical First Step)
 - Find your top competitor's best pillar page in your niche
@@ -180,12 +188,12 @@ For best results, complete these steps in order:
 
 **Ready to get started?** 
 
-👉 **Most users**: Start with competitive research, then use [Setup Automation](SETUP-AUTOMATION.md)
+🚀 **Most users**: Start with [SIMPLE-SETUP.md](SIMPLE-SETUP.md) (15 minutes)
 
-👉 **Developers**: Clone this repo and follow the [Setup Guide](SETUP-GUIDE.md)
+⚙️ **Power users**: Use [Setup Automation](SETUP-AUTOMATION.md) for full framework
 
-👉 **Quick start**: Try the industry-specific prompts in the automation guide
+🔧 **Developers**: Clone this repo and follow the [Setup Guide](SETUP-GUIDE.md)
 
-*The competitive research step is crucial - it gives you the market intelligence needed to create content that actually competes and wins.*
+*Start simple, get results, then scale up to the full framework when you're ready.*
 
 *This framework transforms the complex process of creating high-quality SEO content into a systematic, repeatable process that delivers results.*
